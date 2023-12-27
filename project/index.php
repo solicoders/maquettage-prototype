@@ -1,100 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquette Prototype</title>
-    <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- Tempusdominus Bootstrap 4 -->
-    <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-    <!-- iCheck -->
-    <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-    <!-- JQVMap -->
-    <link rel="stylesheet" href="../plugins/jqvmap/jqvmap.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="../dist/css/adminlte.min.css">
-
-    <link rel="stylesheet" href="../dist/css/alt/style.css">
-
-    <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-    <!-- Daterange picker -->
-    <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- summernote -->
-    <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
-    <script src="https://cdn.tiny.cloud/1/d2nq8cur7uv9c3ovyevwee5l5e5k2ym6hodsnpuuy1hyy1yf/tinymce/6/tinymce.min.js"
-        referrerpolicy="origin"></script>
-    <!-- head -->
-</head>
+<!-- get heade -->
+<?php include_once "../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
         <!-- nav -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-                </li>
-            </ul>
-        </nav>
+        <?php include_once "../layouts/nav.php" ?>
         <!-- aside -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
-            <!-- Brand Logo -->
-            <a href="#" class="brand-link">
-                <img src="../dist/img/solicoders-logo.png" class="brand-image img-circle elevation-3" alt="Group Image">
-                <span class="brand-text font-weight-light text-center">Projects Managment</span>
-            </a>
-
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
-                        <li class="nav-item">
-                            <a href="./index.html" class="nav-link ">
-                                <i class="nav-icon fas fa-table"></i>
-                                <p>
-                                    Projects
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="././tache/index.html" class="nav-link ">
-                                <i class="fa-solid fa-users pl-1 pr-1"></i>
-                                <p>
-                                    Tasks
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../member/index.html" class="nav-link ">
-                                <i class="fa-solid fa-users pl-1 pr-1"></i>
-                                <p>
-                                    Members
-                                </p>
-                            </a>
-                        </li>
-
-                    </ul>
-                </nav>
-                <!-- /.sidebar-menu -->
-            </div>
-            <!-- /.sidebar -->
-        </aside>
+        <?php include_once "../layouts/aside.php" ?>
 
 
 
@@ -107,7 +23,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
-                                <a href="./ajouter.html" class="btn btnAdd">Add New</a>
+                                <a href="./ajouter.php" class="btn btnAdd">Add New</a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +68,7 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.html" class="btn btn-sm btn-default"><i
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
                                                             class="fa-solid fa-pen-to-square"></i></a>
                                                     <a href="././tache/index.html"
                                                         class="btn btn-sm btn-default mx-2">View Tasks</a>
@@ -168,7 +84,7 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.html" class="btn btn-sm btn-default"><i
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
                                                             class="fa-solid fa-pen-to-square"></i></a>
                                                     <a href="././tache/index.html"
                                                         class="btn btn-sm btn-default mx-2">View Tasks</a>
@@ -184,7 +100,7 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.html" class="btn btn-sm btn-default"><i
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
                                                             class="fa-solid fa-pen-to-square"></i></a>
                                                     <a href="././tache/index.html"
                                                         class="btn btn-sm btn-default mx-2">View Tasks</a>
@@ -222,58 +138,13 @@
             </section>
         </div>
 
-       
+       <!-- get footer -->
+       <?php include_once "../layouts/footer.php" ?>
 
-
-
-
-        <footer class="main-footer">
-            <div class="float-right d-none d-sm-block">
-                <b>Version</b> 3.2.0
-            </div>
-            <strong>Copyright © 2014-2021 <a href="https://adminlte.io">Projects Managment</a>.</strong> All rights
-            reserved.
-        </footer>
     </div>
 
-    <!-- scripts -->
-    <!-- jQuery -->
-    <script src="../plugins/jquery/jquery.min.js"></script>
-    <!-- jQuery UI 1.11.4 -->
-    <script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
-    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-    <script>
-        $.widget.bridge('uibutton', $.ui.button)
-    </script>
-    <!-- Bootstrap 4 -->
-    <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- ChartJS -->
-    <script src="../plugins/chart.js/Chart.min.js"></script>
-    <!-- Sparkline -->
-    <script src="../plugins/sparklines/sparkline.js"></script>
-    <!-- JQVMap -->
-    <script src="../plugins/jqvmap/jquery.vmap.min.js"></script>
-    <script src="../plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-    <!-- jQuery Knob Chart -->
-    <script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
-    <!-- daterangepicker -->
-    <script src="../plugins/moment/moment.min.js"></script>
-    <script src="plugins/daterangepicker/daterangepicker.js"></script>
-    <!-- Tempusdominus Bootstrap 4 -->
-    <script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-    <!-- Summernote -->
-    <script src="../plugins/summernote/summernote-bs4.min.js"></script>
-    <!-- overlayScrollbars -->
-    <script src="../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="../dist/js/adminlte.js"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="../dist/js/demo.js"></script>
-    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="../dist/js/pages/dashboard.js"></script>
-    <script src="../dist/js/validationForm.js"></script>
-    <!-- scripts -->
-
+    <!-- get script -->
+    <?php include_once "../layouts/footer.php" ?>
 </body>
 
 </html>
