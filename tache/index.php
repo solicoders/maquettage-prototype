@@ -167,7 +167,7 @@
     </div>
 
     <!-- get script -->
-    <?php include_once "../layouts/footer.php" ?>
+    <?php include_once "../layouts/script-link.php" ?>
 </body>
 
 </html>
