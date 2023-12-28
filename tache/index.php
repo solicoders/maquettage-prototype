@@ -39,23 +39,18 @@
                                     <div class="d-flex justify-content-between">
                                         <div class="dropdown">
                                             <i class="fa-solid fa-filter" style="color: #000505;"></i>
-                                            <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect" type="button"
-                                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
+                                            <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Project1
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item"
-                                                    href="/projects/{{$project->id}}/tasks">Project2</a>
-                                                <a class="dropdown-item"
-                                                    href="/projects/{{$project->id}}/tasks">Project3</a>
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Project2</a>
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Project3</a>
 
                                             </div>
                                         </div>
                                         <div class=" p-0">
                                             <div class="input-group input-group-sm ">
-                                                <input type="text" name="table_search" class="form-control"
-                                                    placeholder="Search">
+                                                <input type="text" name="table_search" class="form-control" placeholder="Search">
                                                 <div class="input-group-append">
                                                     <button type="submit" class="btn btn-default">
                                                         <i class="fas fa-search"></i>
@@ -64,10 +59,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
 
                                 <div class="card-body table-responsive p-0">
+                                    <!-- table -->
                                     <table class="table table-striped text-nowrap">
                                         <thead>
                                             <tr>
@@ -87,10 +83,8 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
 
                                             </tr>
@@ -102,10 +96,8 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -116,10 +108,8 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -152,20 +142,10 @@
 
             </section>
 
-
-            <!-- <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
-                <i class="fas fa-chevron-up"></i>
-                </a> -->
-
-
         </div>
-
-
-       <!-- get footer -->
-       <?php include_once "../layouts/footer.php" ?>
-
+        <!-- get footer -->
+        <?php include_once "../layouts/footer.php" ?>
     </div>
-
     <!-- get script -->
     <?php include_once "../layouts/script-link.php" ?>
 </body>
