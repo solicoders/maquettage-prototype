@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<!-- get heade -->
+<!-- Inclure l'en-tête -->
 <?php include_once "../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
-        <!-- nav -->
+        <!-- Navigation -->
         <?php include_once "../layouts/nav.php" ?>
-        <!-- aside -->
+        <!-- Barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
-
 
 
         <div class="content-wrapper" style="min-height: 1302.4px;">
@@ -19,12 +18,15 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>List of projects</h1>
+                            <h1>Liste des projets</h1>
                         </div>
                         <div class="col-sm-6">
-                            <div class="float-sm-right">
-                                <a href="./ajouter.php" class="btn btnAdd">Add New</a>
-                            </div>
+                        <div class="float-sm-right">
+                            <a href="./ajouter.php" class="btn btn-secondary">
+                                <i class="fas fa-plus"></i> Neveau projet
+                            </a>
+                        </div>
+
                         </div>
                     </div>
                 </div>
@@ -38,7 +40,7 @@
                                     <div class=" p-0">
                                         <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
                                             <input type="text" name="table_search" class="form-control float-right"
-                                                placeholder="Search">
+                                                placeholder="Recherche">
                                             <div class="input-group-append">
                                                 <button type="submit" class="btn btn-default">
                                                     <i class="fas fa-search"></i>
@@ -52,10 +54,10 @@
                                     <table class="table table-striped text-nowrap">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
+                                                <th>Titre</th>
                                                 <th>Description</th>
-                                                <th>Start Date</th>
-                                                <th>End Date</th>
+                                                <th>Date de Début</th>
+                                                <th>Date de Fin</th>
                                                 <th>Actions</th>
                                             </tr>
                                         </thead>
@@ -63,7 +65,7 @@
                                             <tr>
                                                 <td>Projet 1</td>
                                                 <td>
-                                                    Description de projet 1.
+                                                    Description du projet 1.
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
@@ -71,7 +73,7 @@
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i
                                                             class="fa-solid fa-pen-to-square"></i></a>
                                                     <a href="././tache/index.html"
-                                                        class="btn btn-sm btn-default mx-2">View Tasks</a>
+                                                        class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i
                                                             class="fa-solid fa-trash"></i></button>
                                                 </td>
@@ -79,7 +81,7 @@
                                             <tr>
                                                 <td>Projet 2</td>
                                                 <td>
-                                                    Description de projet 2.
+                                                    Description du projet 2.
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
@@ -87,7 +89,7 @@
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i
                                                             class="fa-solid fa-pen-to-square"></i></a>
                                                     <a href="././tache/index.html"
-                                                        class="btn btn-sm btn-default mx-2">View Tasks</a>
+                                                        class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i
                                                             class="fa-solid fa-trash"></i></button>
                                                 </td>
@@ -95,7 +97,7 @@
                                             <tr>
                                                 <td>Projet 3</td>
                                                 <td>
-                                                    Description de projet 3.
+                                                    Description du projet 3.
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
@@ -103,7 +105,7 @@
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i
                                                             class="fa-solid fa-pen-to-square"></i></a>
                                                     <a href="././tache/index.html"
-                                                        class="btn btn-sm btn-default mx-2">View Tasks</a>
+                                                        class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i
                                                             class="fa-solid fa-trash"></i></button>
                                                 </td>
@@ -116,10 +118,10 @@
                                     <div class="d-flex align-items-center mb-2">
                                         <button type="button" class="btn  btn-default btn-sm">
                                             <i class="fa-solid fa-file-arrow-down"></i>
-                                            IMPORT</button>
+                                            IMPORTER</button>
                                         <button type="button" class="btn  btn-default btn-sm mt-0 mx-2">
                                             <i class="fa-solid fa-file-export"></i>
-                                            EXPORT</button>
+                                            EXPORTER</button>
                                     </div>
                                     <div class="mr-5">
                                         <ul class="pagination  m-0 float-right">
@@ -138,12 +140,12 @@
             </section>
         </div>
 
-       <!-- get footer -->
+       <!-- Inclure le pied de page -->
        <?php include_once "../layouts/footer.php" ?>
 
     </div>
 
-    <!-- get script -->
+    <!-- Inclure le script -->
     <?php include_once "../layouts/script-link.php" ?>
 </body>
 

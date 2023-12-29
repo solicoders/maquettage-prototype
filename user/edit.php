@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<!-- get heade -->
+<!-- Inclure l'en-tête -->
 <?php include_once "../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
-        <!-- nav -->
+        <!-- Navigation -->
         <?php include_once "../layouts/nav.php" ?>
-        <!-- aside -->
+        <!-- Barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
-
 
 
         <div class="content-wrapper" style="min-height: 1302.4px;">
@@ -26,9 +25,9 @@
 
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">edit Member</h3>
+                                    <h3 class="card-title">Modifier le Membre</h3>
                                 </div>
-                                <!-- get form -->
+                                <!-- Obtenir le formulaire -->
                                 <?php include_once "./form.php" ?>
                             </div>
 
@@ -41,12 +40,12 @@
         </div>
 
 
-       <!-- get footer -->
+       <!-- Inclure le pied de page -->
        <?php include_once "../layouts/footer.php" ?>
 
     </div>
 
-    <!-- get script -->
+    <!-- Inclure le script -->
     <?php include_once "../layouts/footer.php" ?>
 </body>
 

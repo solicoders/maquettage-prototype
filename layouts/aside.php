@@ -1,37 +1,37 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
+    <!-- Logo de la marque -->
     <a href="../project/index.php" class="brand-link">
-        <img src="../dist/img/gestion-de-projet.png" class="brand-image img-circle elevation-3" alt="Group Image">
-        <span class="brand-text font-weight-light text-center">Projects Managment</span>
+        <img src="../dist/img/gestion-de-projet.png" class="brand-image img-circle elevation-3" alt="Image de groupe">
+        <span class="brand-text font-weight-light text-center">Gestion de Projets</span>
     </a>
 
-    <!-- Sidebar -->
+    <!-- Barre latérale -->
     <div class="sidebar">
-        <!-- Sidebar Menu -->
+        <!-- Menu latéral -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
+                <!-- Ajouter des icônes aux liens en utilisant la classe .nav-icon avec Font Awesome ou toute autre bibliothèque d'icônes -->
                 <li class="nav-item">
                     <a href="../project/index.php" class="nav-link ">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
-                            Projects
+                            Projets
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="../tache/index.php" class="nav-link ">
-                        <i class="fa-solid fa-users pl-1 pr-1"></i>
+                    <i class="nav-icon fas fa-tasks"></i>
                         <p>
-                            Tasks
+                            Tâches
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../member/index.php" class="nav-link ">
+                    <a href="../user/index.php" class="nav-link ">
                         <i class="fa-solid fa-users pl-1 pr-1"></i>
                         <p>
-                            Members
+                            Utilisateur
                         </p>
                     </a>
                 </li>

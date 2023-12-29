@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<!-- get heade -->
+<!-- inclusion de l'en-tête -->
 <?php include_once "../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
-        <!-- nav -->
+        <!-- navigation -->
         <?php include_once "../layouts/nav.php" ?>
-        <!-- aside -->
+        <!-- barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
 
 
@@ -19,11 +19,13 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>List of tasks</h1>
+                            <h1>Liste des tâches</h1>
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
-                                <a href="./ajouter.php" class="btn btnAdd">Add New</a>
+                                <a href="./ajouter.php" class="btn btn-secondary">
+                                <i class="fas fa-plus"></i> Neveau Tâche
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -37,20 +39,36 @@
                             <div class="card">
                                 <div class="card-header col-md-12">
                                     <div class="d-flex justify-content-between">
-                                        <div class="dropdown">
+                                        <!-- <div class="dropdown">
                                             <i class="fa-solid fa-filter" style="color: #000505;"></i>
                                             <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Project1
+                                                Projet1
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Project2</a>
-                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Project3</a>
-
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
                                             </div>
+                                        </div> -->
+
+                                        <div class="dropdown input-group">
+                                            <label class="input-group-text" for="projectsFilter">
+                                                <i class="fa-solid fa-filter" class="input-group-text text-dark"></i>
+                                            </label>
+                                            <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect input-group-text" type="button"
+                                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Projet1
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
+                                                    <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
+                                                </div>
                                         </div>
+
+
                                         <div class=" p-0">
                                             <div class="input-group input-group-sm ">
-                                                <input type="text" name="table_search" class="form-control" placeholder="Search">
+                                                <input type="text" name="table_search" class="form-control" placeholder="Recherche">
                                                 <div class="input-group-append">
                                                     <button type="submit" class="btn btn-default">
                                                         <i class="fas fa-search"></i>
@@ -67,18 +85,18 @@
                                     <table class="table table-striped text-nowrap">
                                         <thead>
                                             <tr>
-                                                <th>Name task</th>
-                                                <th>Name project</th>
-                                                <th>Start date</th>
-                                                <th>End date</th>
+                                                <th>Titre de la tâche</th>
+                                                <th>Titre du projet</th>
+                                                <th>Date de début</th>
+                                                <th>Date de fin</th>
                                                 <th>Actions</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>tache 1</td>
+                                                <td>tâche 1</td>
                                                 <td>
-                                                    Project1
+                                                    Projet1
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
@@ -89,9 +107,9 @@
 
                                             </tr>
                                             <tr>
-                                                <td>tache 2</td>
+                                                <td>tâche 2</td>
                                                 <td>
-                                                    Project1
+                                                    Projet1
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
@@ -101,9 +119,9 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>tache 3</td>
+                                                <td>tâche 3</td>
                                                 <td>
-                                                    Project1
+                                                    Projet1
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
@@ -119,10 +137,10 @@
                                     <div class="d-flex align-items-center mb-2 ml-2 mt-2">
                                         <button type="button" class="btn  btn-default btn-sm">
                                             <i class="fa-solid fa-file-arrow-down"></i>
-                                            IMPORT</button>
+                                            IMPORTER</button>
                                         <button type="button" class="btn  btn-default btn-sm mt-0 mx-2">
                                             <i class="fa-solid fa-file-export"></i>
-                                            EXPORT</button>
+                                            EXPORTER</button>
                                     </div>
                                     <div class="">
                                         <ul class="pagination  m-0 float-right mr-5">
@@ -143,10 +161,10 @@
             </section>
 
         </div>
-        <!-- get footer -->
+        <!-- pied de page -->
         <?php include_once "../layouts/footer.php" ?>
     </div>
-    <!-- get script -->
+    <!-- script -->
     <?php include_once "../layouts/script-link.php" ?>
 </body>
 

@@ -1,5 +1,5 @@
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-    <!-- Left navbar links -->
+    <!-- Liens de navigation de gauche -->
     <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
@@ -10,25 +10,25 @@
 
         <li class="nav-item dropdown user-menu">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                <img src="../dist/img/gestion-de-projet.png"
-                    class="user-image img-circle elevation-2" alt="User Image">
-                <span class="d-none d-md-inline">chef de project</span>
+                <img src="../dist/img/directeur.png"
+                    class="user-image img-circle elevation-2" alt="Image d'utilisateur">
+                <span class="d-none d-md-inline">Chef de Projet</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                <!-- User image -->
+                <!-- Image d'utilisateur -->
                 <li class="user-header bg-primary">
-                    <img src="../dist/img/gestion-de-projet.png" class="img-circle elevation-2"
-                        alt="User Image">
+                    <img src="../dist/img/directeur.png" class="img-circle elevation-2"
+                        alt="Image d'utilisateur">
                     <p>
-                        chef de project
-                        <small>Member since 12/28/2023</small>
+                        Chef de Projet
+                        <small>Membre depuis le 28/12/2023</small>
                     </p>
                 </li>
-                <!-- Menu Footer-->
+                <!-- Pied de page du menu -->
                 <li class="user-footer">
-                    <a href="#" class="btn btn-default btn-flat">profile</a>
+                    <a href="#" class="btn btn-default btn-flat">Profil</a>
                     <a href="../auth/index.php" class="btn btn-default btn-flat float-right">
-                        Sign out
+                        Se déconnecter
                     </a>
                 </li>
             </ul>

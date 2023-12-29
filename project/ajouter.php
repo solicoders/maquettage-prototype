@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<!-- get heade -->
+<!-- Inclure l'en-tête -->
 <?php include_once "../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
-        <!-- nav -->
+        <!-- Navigation -->
         <?php include_once "../layouts/nav.php" ?>
-        <!-- aside -->
+        <!-- Barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
 
         <div class="content-wrapper" style="min-height: 1302.4px;">
 
             <div class="content-header">
-                <!-- <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1>Projets</h1>
-                        </div>
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item active">Ajouter Projet</li>
-                                <li class="breadcrumb-item"><a href="./index.html">Accueil</a> </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div> -->
             </div>
 
             <section class="content">
@@ -37,9 +24,9 @@
 
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Ajouet Projet</h3>
+                                    <h3 class="card-title">Ajouter un Projet</h3>
                                 </div>
-                                <!-- get form -->
+                                <!-- Obtenir le formulaire -->
                                 <?php include_once "./form.php" ?>
                             </div>
                         </div>
@@ -51,12 +38,12 @@
         </div>
     </div>
 
-       <!-- get footer -->
+       <!-- Inclure le pied de page -->
        <?php include_once "../layouts/footer.php" ?>
 
     </div>
 
-    <!-- get script -->
+    <!-- Obtenir le script -->
     <?php include_once "../layouts/footer.php" ?>
 </body>
 

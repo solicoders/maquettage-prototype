@@ -32,5 +32,9 @@
     <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
     <script src="https://cdn.tiny.cloud/1/d2nq8cur7uv9c3ovyevwee5l5e5k2ym6hodsnpuuy1hyy1yf/tinymce/6/tinymce.min.js"
         referrerpolicy="origin"></script>
+
+        <!-- tinymce  -->
+        <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
     <!-- head -->
 </head>

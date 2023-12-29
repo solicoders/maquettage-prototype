@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<!-- get heade -->
+<!-- Inclure l'en-tête -->
 <?php include_once "../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
-        <!-- nav -->
+        <!-- Navigation -->
         <?php include_once "../layouts/nav.php" ?>
-        <!-- aside -->
+        <!-- Barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
-
 
 
         <div class="content-wrapper" style="min-height: 1302.4px;">
@@ -20,11 +19,14 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>List of Members</h1>
+                            <h1>Liste des Utilisateur</h1>
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
-                                <a href="./ajouter.php" class="btn btnAdd">Add New</a>
+                                <!-- btnAdd -->
+                                <a href="./ajouter.php" class="btn btn-secondary">
+                                    <i class="fas fa-plus"></i> Neveau Utilisateur
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -39,8 +41,7 @@
                                 <div class="card-header col-md-12">
                                     <div class=" p-0">
                                         <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
-                                            <input type="text" name="table_search" class="form-control float-right"
-                                                placeholder="Search">
+                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
                                             <div class="input-group-append">
                                                 <button type="submit" class="btn btn-default">
                                                     <i class="fas fa-search"></i>
@@ -54,9 +55,9 @@
                                     <table class="table table-striped text-nowrap">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>email</th>
-                                                <th>action</th>
+                                                <th>Nom</th>
+                                                <th>Email</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -66,10 +67,8 @@
                                                     ahmed@gmail.com
                                                 </td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -78,10 +77,8 @@
                                                     Achou@gmail.com
                                                 </td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -90,10 +87,8 @@
                                                     adnan@gmail.com
                                                 </td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -119,12 +114,12 @@
         </div>
 
 
-       <!-- get footer -->
-       <?php include_once "../layouts/footer.php" ?>
+        <!-- Inclure le pied de page -->
+        <?php include_once "../layouts/footer.php" ?>
 
     </div>
 
-    <!-- get script -->
+    <!-- Inclure le script -->
     <?php include_once "../layouts/script-link.php" ?>
 </body>
 
