@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Logo de la marque -->
     <a href="../project/index.php" class="brand-link">
-        <img src="../dist/img/gestion-de-projet.png" class="brand-image img-circle elevation-3" alt="Image de groupe">
+        <img src="../../assets/dist/img/gestion-de-projet.png" class="brand-image img-circle elevation-3" alt="Image de groupe">
         <span class="brand-text font-weight-light text-center">Gestion de Projets</span>
     </a>
 
