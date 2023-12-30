@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Logo de la marque -->
-    <a href="../project/index.php" class="brand-link">
-        <img src="../../assets/dist/img/gestion-de-projet.png" class="brand-image img-circle elevation-3" alt="Image de groupe">
+    <a href="../../gestion_des_projet/project/index.php" class="brand-link">
+        <img src="../../../maquettage-prototype/adminlte/dist/img/gestion-de-projet.png" class="brand-image img-circle elevation-3" alt="Image de groupe">
         <span class="brand-text font-weight-light text-center">Gestion de Projets</span>
     </a>
 
@@ -12,7 +12,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Ajouter des icônes aux liens en utilisant la classe .nav-icon avec Font Awesome ou toute autre bibliothèque d'icônes -->
                 <li class="nav-item">
-                    <a href="../project/index.php" class="nav-link ">
+                    <a href="../../gestion_des_projet/project/index.php" class="nav-link ">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
                             Projets
@@ -20,7 +20,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../tache/index.php" class="nav-link ">
+                    <a href="../../gestion_des_projet/tache/index.php" class="nav-link ">
                     <i class="nav-icon fas fa-tasks"></i>
                         <p>
                             Tâches
@@ -28,7 +28,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../user/index.php" class="nav-link ">
+                    <a href="../../gestion_des_projet/user/index.php" class="nav-link ">
                         <i class="fa-solid fa-users pl-1 pr-1"></i>
                         <p>
                             Utilisateur
@@ -41,29 +41,35 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-user-lock"></i>
               <p>
-                Authorization
+                Droit d'accès
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Permissions</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Roles</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Controllers</p>
-                </a>
-              </li>
+            <li class="nav-item">
+              <a href="../../droit_d'accés/Autorisations/index.php" class="nav-link active">
+                <i class="far fa-check-circle nav-icon"></i>
+                <p>Autorisation</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../../droit_d'accés/Roles/index.php" class="nav-link">
+                <i class="far fa-user-circle nav-icon"></i>
+                <p>Rôle</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../../droit_d'accés/Controllers/index.php" class="nav-link ">
+                <i class="fas fa-gamepad nav-icon"></i>
+                <p>Controllers</p>
+              </a>
+            </li>
+            <li class="nav-item "> 
+              <a href="../../droit_d'accés/Actions/index.php" class="nav-link ">
+                <i class="fas fa-cogs nav-icon"></i>
+                <p>Actions</p>
+              </a>
+            </li>
             </ul>
           </li>
 
