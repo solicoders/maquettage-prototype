@@ -45,14 +45,14 @@
                           <div class="card-header">
                             <h3 class="card-title">
                               <i class="fas fa-chart-pie mr-1"></i>
-                              Add New Role
+                              Ajouter Rôle
                             </h3>
                           </div><!-- /.card-header -->
                           <div class="card-body">
                             <form>
                               <div class="form-group">
-                                <label for="roleName">Role Name</label>
-                                <input type="text" class="form-control" id="roleName" placeholder="Enter role name">
+                                <label for="roleName">Nom de rôle</label>
+                                <input type="text" class="form-control" id="roleName" placeholder="Entrez le nom du rôle">
                               </div>
                               <button type="submit" class="btn btn-primary">Submit</button>
                             </form>

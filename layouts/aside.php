@@ -1,4 +1,4 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4 position-fixed">
     <!-- Logo de la marque -->
     <a href="../../gestion_des_projet/project/index.php" class="brand-link">
         <img src="../../../maquettage-prototype/adminlte/dist/img/gestion-de-projet.png" class="brand-image img-circle elevation-3" alt="Image de groupe">
@@ -12,7 +12,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Ajouter des icônes aux liens en utilisant la classe .nav-icon avec Font Awesome ou toute autre bibliothèque d'icônes -->
                 <li class="nav-item">
-                    <a href="../../gestion_des_projet/project/index.php" class="nav-link ">
+                    <a href="../../gestion_des_projet/project/index.php" class="nav-link">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
                             Projets

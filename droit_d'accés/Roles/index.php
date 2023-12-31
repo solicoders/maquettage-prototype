@@ -13,7 +13,6 @@
     <?php include_once "../../layouts/aside.php" ?>
 
 
-
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
@@ -22,12 +21,13 @@
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1>Actions</h1>
+                <h1>Role</h1>
               </div>
               <div class="col-sm-6">
-                <div class="float-sm-right">
+
+                <div class="float-sm-right mr-2">
                   <a href="./create.php" class="btn btn-secondary">
-                    <i class="fas fa-plus"></i> Ajoute Role
+                    <i class="fas fa-plus"></i> Nouveau Rôle
                   </a>
                 </div>
 
@@ -42,60 +42,84 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-12">
-              <!-- Default box -->
               <div class="card">
-                <div class="card-header">
-                  <div class="card-tools">
-                    <div class="input-group input-group-sm" style="width: 150px;">
-                      <input type="text" name="search" class="form-control float-right" placeholder="Search">
+                <div class="card-header col-md-12">
+                  <div class=" p-0">
+                    <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
+                      <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
                       <div class="input-group-append">
-                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                        <button type="submit" class="btn btn-default">
+                          <i class="fas fa-search"></i>
+                        </button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- /.card-header -->
 
-                <table class="table table-striped text-nowrap">
-                  <thead>
-                    <tr>
-                      <th>Nom de rôle</th>
-                      <th class="action-column" style="width: 150px;">Action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Admin</td>
-                      <td>
-                        <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
-                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Chef de projet</td>
-                      <td>
-                        <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
-                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
-                      </td>
-                    </tr>
-                    <!-- Add more rows for other roles -->
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <td colspan="2">
-                        <ul class="pagination  m-0 float-right">
-                          <li class="page-item"><a class="page-link" href="#">«</a></li>
-                          <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item"><a class="page-link" href="#">»</a></li>
-                        </ul>
-                      </td>
-                    </tr>
-                  </tfoot>
-                </table>
+                <div class="card-body table-responsive p-0">
+                  <table class="table table-striped text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Nom du garde</th>
+                        <th class="text-center">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>index-Project</td>
+                        <td>
+                          web
+                        </td>
+                        <td class="text-center">
+                          <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                          <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>create-Projects</td>
+                        <td>
+                          web
+                        </td>
+                        <td class="text-center">
+                          <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                          <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>index-Task</td>
+                        <td>
+                          web
+                        </td>
+                        <td class="text-center">
+                          <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                          <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center p-2">
+                  <div class="d-flex align-items-center mb-2">
+                    <button type="button" class="btn  btn-default btn-sm">
+                      <i class="fa-solid fa-file-arrow-down"></i>
+                      IMPORTER</button>
+                    <button type="button" class="btn  btn-default btn-sm mt-0 mx-2">
+                      <i class="fa-solid fa-file-export"></i>
+                      EXPORTER</button>
+                  </div>
+                  <div class="mr-5">
+                    <ul class="pagination  m-0 float-right">
+                      <li class="page-item"><a class="page-link" href="#">«</a></li>
+                      <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">»</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <!-- /.card -->
             </div>
           </div>
         </div>
