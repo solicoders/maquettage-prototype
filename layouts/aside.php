@@ -34,9 +34,10 @@
               Utilisateur
             </p>
           </a>
-        </li>
 
-        <!-- Authorization -->
+          <?php
+          if (isset($_POST['email']) && $_POST['email'] == "admin@solicode.com") {
+          ?>
         <li class="nav-item has-treeview">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-user-lock"></i>
@@ -72,8 +73,11 @@
             </li>
           </ul>
         </li>
+      <?php
+          } 
+      ?>
 
-
+      </li>
       </ul>
     </nav>
     <!-- /.sidebar-menu -->
