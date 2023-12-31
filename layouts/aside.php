@@ -34,7 +34,7 @@ if (isset($_POST['email'])) {
           </a>
         </li>
         <li class="nav-item">
-          <a href="../../gestion_des_projet/user/index.php" class="nav-link ">
+          <a href="../../gestion_des_projet/utilisateur/index.php" class="nav-link ">
             <i class="fa-solid fa-users pl-1 pr-1"></i>
             <p>
               Utilisateur

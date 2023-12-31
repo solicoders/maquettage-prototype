@@ -39,18 +39,8 @@
                             <div class="card">
                                 <div class="card-header col-md-12">
                                     <div class="d-flex justify-content-between">
-                                        <!-- <div class="dropdown">
-                                            <i class="fa-solid fa-filter" style="color: #000505;"></i>
-                                            <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Projet1
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
-                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
-                                            </div>
-                                        </div> -->
 
-                                        <div class="dropdown input-group">
+                                        <!-- <div class="dropdown input-group">
                                             <label class="input-group-text" for="projectsFilter">
                                                 <i class="fa-solid fa-filter" class="input-group-text text-dark"></i>
                                             </label>
@@ -61,11 +51,23 @@
                                                 <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
                                                 <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
                                             </div>
+                                        </div> -->
+
+                                        <div class="dropdown input-group">
+                                            <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
+                                                Projet1
+                                            </button>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
+                                            </div>
                                         </div>
 
 
                                         <div class=" p-0">
-                                            <div class="input-group input-group-sm ">
+                                            <div class="input-group input-group-sm">
                                                 <input type="text" name="table_search" class="form-control" placeholder="Recherche">
                                                 <div class="input-group-append">
                                                     <button type="submit" class="btn btn-default">

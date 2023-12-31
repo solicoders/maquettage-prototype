@@ -133,11 +133,11 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="card">
-                                <div class="card-header">
-                                    <!-- <h3 class="card-title">
+                                <!-- <div class="card-header">
+                                    <h3 class="card-title">
                                         <i class="fas fa-chart-pie mr-1"></i>
                                         Manage Authorizations
-                                    </h3> -->
+                                    </h3>
                                     <div class=" p-0">
                                         <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
                                             <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
@@ -148,7 +148,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><!-- /.card-header -->
+                                </div> -->
+                                <!-- /.card-header -->
                                 <div class="card-body">
                                     <form>
                                         <div class="form-row">
