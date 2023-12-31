@@ -38,8 +38,8 @@
         </div>
     </div>
 
-       <!-- Inclure le pied de page -->
-       <?php include_once "../../layouts/footer.php" ?>
+    <!-- Inclure le pied de page -->
+    <?php include_once "../../layouts/footer.php" ?>
 
     </div>
 

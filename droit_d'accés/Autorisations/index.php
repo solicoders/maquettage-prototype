@@ -47,8 +47,7 @@
                                 <div class="card-header col-md-12">
                                     <div class=" p-0">
                                         <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
-                                            <input type="text" name="table_search" class="form-control float-right"
-                                                placeholder="Recherche">
+                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
                                             <div class="input-group-append">
                                                 <button type="submit" class="btn btn-default">
                                                     <i class="fas fa-search"></i>
@@ -74,10 +73,8 @@
                                                     web
                                                 </td>
                                                 <td class="text-center">
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -86,10 +83,8 @@
                                                     web
                                                 </td>
                                                 <td class="text-center">
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -98,10 +93,8 @@
                                                     web
                                                 </td>
                                                 <td class="text-center">
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -134,8 +127,8 @@
             </section>
             <!-- /.content -->
 
-                        <!-- Main content -->
-                        <section class="content">
+            <!-- Main content -->
+            <section class="content">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
@@ -147,8 +140,7 @@
                                     </h3> -->
                                     <div class=" p-0">
                                         <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
-                                            <input type="text" name="table_search" class="form-control float-right"
-                                                placeholder="Recherche">
+                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
                                             <div class="input-group-append">
                                                 <button type="submit" class="btn btn-default">
                                                     <i class="fas fa-search"></i>
@@ -213,7 +205,7 @@
                                                 </td>
                                                 <td>
                                                     <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
-                                                    <button  class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                                    <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
 
                                                 </td>
                                             </tr>

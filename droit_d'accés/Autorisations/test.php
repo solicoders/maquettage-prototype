@@ -24,16 +24,16 @@
                                 <h1>Authorization</h1>
                             </div>
                             <div class="col-sm-6">
-                            <div class="float-sm-right">
-                                <a href="./create.php" class="btn btn-secondary bg-gray">
-                                    <i class="fas fa-plus"></i> Ajoute automatique
-                                </a>
-                            </div>
-                            <div class="float-sm-right mr-2">
-                                <a href="./create.php" class="btn btn-secondary">
-                                    <i class="fas fa-plus"></i> Ajoute
-                                </a>
-                            </div>
+                                <div class="float-sm-right">
+                                    <a href="./create.php" class="btn btn-secondary bg-gray">
+                                        <i class="fas fa-plus"></i> Ajoute automatique
+                                    </a>
+                                </div>
+                                <div class="float-sm-right mr-2">
+                                    <a href="./create.php" class="btn btn-secondary">
+                                        <i class="fas fa-plus"></i> Ajoute
+                                    </a>
+                                </div>
 
                             </div>
                         </div>
@@ -54,8 +54,7 @@
                                     </h3> -->
                                     <div class=" p-0">
                                         <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
-                                            <input type="text" name="table_search" class="form-control float-right"
-                                                placeholder="Recherche">
+                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
                                             <div class="input-group-append">
                                                 <button type="submit" class="btn btn-default">
                                                     <i class="fas fa-search"></i>
@@ -120,7 +119,7 @@
                                                 </td>
                                                 <td>
                                                     <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
-                                                    <button  class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                                    <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
 
                                                 </td>
                                             </tr>

@@ -24,7 +24,7 @@
                         <div class="col-sm-6">
                             <div class="float-sm-right">
                                 <a href="./ajouter.php" class="btn btn-secondary">
-                                <i class="fas fa-plus"></i> Neveau Tâche
+                                    <i class="fas fa-plus"></i> Neveau Tâche
                                 </a>
                             </div>
                         </div>
@@ -54,15 +54,13 @@
                                             <label class="input-group-text" for="projectsFilter">
                                                 <i class="fa-solid fa-filter" class="input-group-text text-dark"></i>
                                             </label>
-                                            <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect input-group-text" type="button"
-                                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
+                                            <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect input-group-text" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Projet1
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
-                                                    <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
-                                                </div>
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
+                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
+                                            </div>
                                         </div>
 
 

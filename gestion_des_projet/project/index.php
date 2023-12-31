@@ -21,11 +21,11 @@
                             <h1>Liste des projets</h1>
                         </div>
                         <div class="col-sm-6">
-                        <div class="float-sm-right">
-                            <a href="./ajouter.php" class="btn btn-secondary">
-                                <i class="fas fa-plus"></i> Neveau projet
-                            </a>
-                        </div>
+                            <div class="float-sm-right">
+                                <a href="./ajouter.php" class="btn btn-secondary">
+                                    <i class="fas fa-plus"></i> Neveau projet
+                                </a>
+                            </div>
 
                         </div>
                     </div>
@@ -39,8 +39,7 @@
                                 <div class="card-header col-md-12">
                                     <div class=" p-0">
                                         <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
-                                            <input type="text" name="table_search" class="form-control float-right"
-                                                placeholder="Recherche">
+                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
                                             <div class="input-group-append">
                                                 <button type="submit" class="btn btn-default">
                                                     <i class="fas fa-search"></i>
@@ -70,12 +69,9 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <a href="././tache/index.html"
-                                                        class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -86,12 +82,9 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <a href="././tache/index.html"
-                                                        class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -102,12 +95,9 @@
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
                                                 <td>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <a href="././tache/index.html"
-                                                        class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -140,8 +130,8 @@
             </section>
         </div>
 
-       <!-- Inclure le pied de page -->
-       <?php include_once "../../layouts/footer.php" ?>
+        <!-- Inclure le pied de page -->
+        <?php include_once "../../layouts/footer.php" ?>
 
     </div>
 

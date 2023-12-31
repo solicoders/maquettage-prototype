@@ -11,15 +11,13 @@
 
         <li class="nav-item dropdown user-menu">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                <img src="../../adminlte/dist/img/directeur.png"
-                    class="user-image img-circle elevation-2" alt="Image d'utilisateur">
+                <img src="../../adminlte/dist/img/directeur.png" class="user-image img-circle elevation-2" alt="Image d'utilisateur">
                 <span class="d-none d-md-inline">Chef de Projet</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <!-- Image d'utilisateur -->
                 <li class="user-header bg-primary">
-                    <img src="../../adminlte/dist/img/directeur.png" class="img-circle elevation-2"
-                        alt="Image d'utilisateur">
+                    <img src="../../adminlte/dist/img/directeur.png" class="img-circle elevation-2" alt="Image d'utilisateur">
                     <p>
                         Chef de Projet
                         <small>Membre depuis le 28/12/2023</small>
