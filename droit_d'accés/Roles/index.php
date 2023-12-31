@@ -67,7 +67,7 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>index-Project</td>
+                        <td>chef_de_projet</td>
                         <td>
                           web
                         </td>
@@ -77,7 +77,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td>create-Projects</td>
+                        <td>admin</td>
                         <td>
                           web
                         </td>
@@ -87,7 +87,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td>index-Task</td>
+                        <td>utilisateur</td>
                         <td>
                           web
                         </td>

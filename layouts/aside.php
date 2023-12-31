@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_POST['email'])) {
+  $_SESSION['email'] = $_POST['email'];
+}
+?>
 <aside class="main-sidebar sidebar-dark-primary elevation-4 position-fixed">
   <!-- Logo de la marque -->
   <a href="../../gestion_des_projet/project/index.php" class="brand-link">
@@ -34,9 +40,8 @@
               Utilisateur
             </p>
           </a>
-
           <?php
-          if (isset($_POST['email']) && $_POST['email'] == "admin@solicode.com") {
+          if ($_SESSION['email'] == "admin@solicode.com") {
           ?>
         <li class="nav-item has-treeview">
           <a href="#" class="nav-link">
@@ -74,7 +79,7 @@
           </ul>
         </li>
       <?php
-          } 
+          }
       ?>
 
       </li>
