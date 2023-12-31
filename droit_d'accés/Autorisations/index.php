@@ -62,7 +62,7 @@
                                         <thead>
                                             <tr>
                                                 <th>Nom</th>
-                                                <th>Guard Nom</th>
+                                                <th>Nom du garde</th>
                                                 <th class="text-center">Actions</th>
                                             </tr>
                                         </thead>
@@ -156,16 +156,17 @@
                                             <div class="form-group col-md-4">
                                                 <label for="roleSelect">Role</label>
                                                 <select class="form-control" id="roleSelect">
-                                                    <option>Role 1</option>
-                                                    <option>Role 2</option>
-                                                    <!-- Add more roles as needed -->
+                                                    <option>admin</option>
+                                                    <option>chef-projet</option>
+                                                    <option>utilisateur</option>
                                                 </select>
                                             </div>
                                             <div class="form-group col-md-4">
                                                 <label for="controllerSelect">Controller</label>
                                                 <select class="form-control" id="controllerSelect">
-                                                    <option>Controller 1</option>
-                                                    <option>Controller 2</option>
+                                                    <option>ProjectsController</option>
+                                                    <option>TasksController</option>
+                                                    <option>UtilisteurController</option>
                                                     <!-- Add more controllers as needed -->
                                                 </select>
                                             </div>
@@ -194,13 +195,21 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Role 1</td>
-                                                <td>Controller 1</td>
+                                                <td>admin</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>ProjectsController</li>
+                                                        <li>TasksController</li>
+                                                        <li>UtilisateurController</li>
+                                                    </ul>
+                                                </td>
+                                                </td>
                                                 <td>All</td>
                                                 <td>
                                                     <ul>
-                                                        <li>Read</li>
-                                                        <li>Write</li>
+                                                        <li>index</li>
+                                                        <li>create</li>
+                                                        <li>edit</li>
                                                         <li>Delete</li>
                                                     </ul>
                                                 </td>
@@ -210,7 +219,26 @@
 
                                                 </td>
                                             </tr>
-                                            <!-- Add more rows as needed -->
+                                            <tr>
+                                                <td>utilisateur</td>
+                                                <td>
+                                                <ul>
+                                                    <li>ProjectsController</li>
+                                                    <li>TasksController</li>
+                                                    <li>UtilisateurController</li>
+                                                    </ul>
+                                                </td>
+                                                <td>All</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>index</li>
+                                                    </ul>
+                                                </td>
+                                                <td>
+                                                    <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
+                                                    <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>

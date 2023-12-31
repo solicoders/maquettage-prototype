@@ -40,19 +40,6 @@
                                 <div class="card-header col-md-12">
                                     <div class="d-flex justify-content-between">
 
-                                        <!-- <div class="dropdown input-group">
-                                            <label class="input-group-text" for="projectsFilter">
-                                                <i class="fa-solid fa-filter" class="input-group-text text-dark"></i>
-                                            </label>
-                                            <button class="btn btn-sm mr-3 dropdown-toggle btnAddSelect input-group-text" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Projet1
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet2</a>
-                                                <a class="dropdown-item" href="/projects/{{$project->id}}/tasks">Projet3</a>
-                                            </div>
-                                        </div> -->
-
                                         <div class="dropdown input-group">
                                             <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
@@ -65,7 +52,6 @@
                                             </div>
                                         </div>
 
-
                                         <div class=" p-0">
                                             <div class="input-group input-group-sm">
                                                 <input type="text" name="table_search" class="form-control" placeholder="Recherche">
@@ -77,9 +63,7 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="card-body table-responsive p-0">
                                     <!-- table -->
                                     <table class="table table-striped text-nowrap">
