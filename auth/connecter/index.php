@@ -29,8 +29,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body class="hold-transition login-page">
 <div class="login-box">
         <div class="login-logo">
-            <img src="../dist/img/gestion-de-projet.png" alt="" srcset="" width="90px">
-            <h4>gestion des Projet</h4>
+            <img src="../../adminlte/dist/img/gestion-de-projet.png" alt="" srcset="" width="90px">
+            <h4>Gestion des Projet</h4>
         </div>
         <!-- /.login-logo -->
 

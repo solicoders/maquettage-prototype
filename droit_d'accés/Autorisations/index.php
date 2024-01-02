@@ -105,11 +105,7 @@
                                             <tr>
                                                 <td>admin</td>
                                                 <td>
-                                                    <ul>
-                                                        <li>ProjectsController</li>
-                                                        <li>TasksController</li>
-                                                        <li>UtilisateurController</li>
-                                                    </ul>
+                                                  ProjectsController
                                                 </td>
                                                 </td>
                                                 <td>All</td>
@@ -131,9 +127,7 @@
                                                 <td>utilisateur</td>
                                                 <td>
                                                 <ul>
-                                                    <li>ProjectsController</li>
-                                                    <li>TasksController</li>
-                                                    <li>UtilisateurController</li>
+                                                    ProjectsController
                                                     </ul>
                                                 </td>
                                                 <td>All</td>

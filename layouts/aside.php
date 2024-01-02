@@ -29,15 +29,15 @@
               </p>
             </a>
           </li>
-          <!-- UTILISATEUR -->
+          <!-- MEMBRE -->
         <?php
         } if ($_SESSION['name'] == "chef de projet") {
         ?>
           <li class="nav-item">
-            <a href="../../gestion_des_projet/utilisateur/index.php" class="nav-link ">
+            <a href="../../gestion_des_projet/membre/index.php" class="nav-link ">
               <i class="fa-solid fa-users pl-1 pr-1"></i>
               <p>
-                Utilisateur
+                Membre
               </p>
             </a>
             <!-- Authorization -->
