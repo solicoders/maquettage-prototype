@@ -30,6 +30,11 @@
                   </a>
                 </div>
 
+                <div class="float-sm-right mr-2">
+                  <a href="./create.php" class="btn btn-secondary bg-gray">
+                    <i class="fas fa-plus"></i> Ajoute automatique
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -23,11 +23,6 @@
                             <h1>Autorisation</h1>
                         </div>
                         <div class="col-sm-6">
-                            <div class="float-sm-right">
-                                <a href="./create.php" class="btn btn-secondary bg-gray">
-                                    <i class="fas fa-plus"></i> Ajoute automatique
-                                </a>
-                            </div>
                             <div class="float-sm-right mr-2">
                                 <a href="./create.php" class="btn btn-secondary">
                                     <i class="fas fa-plus"></i> Ajoute
@@ -101,9 +96,9 @@
                                             <tr>
                                                 <th>Role</th>
                                                 <th>Controller</th>
-                                                <th>Rights</th>
+                                                <th>Tousles droit</th>
                                                 <th>Actions</th>
-                                                <th>Action</th>
+                                                <th>Actions</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -120,10 +115,10 @@
                                                 <td>All</td>
                                                 <td>
                                                     <ul>
-                                                        <li>index</li>
-                                                        <li>create</li>
-                                                        <li>edit</li>
-                                                        <li>Delete</li>
+                                                        <li>index-projetsController</li>
+                                                        <li>create-projetsController</li>
+                                                        <li>edit-projetsController</li>
+                                                        <li>Delete-projetsController</li>
                                                     </ul>
                                                 </td>
                                                 <td>

@@ -1,7 +1,5 @@
 <?php 
     session_start();
-    $name = ($_SESSION['email'] == "admin@solicode.com") ? $name = "chef de projet": $name = "admin";
-
 ?>
 <!-- <nav class="main-header navbar navbar-expand navbar-white navbar-light"> -->
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">

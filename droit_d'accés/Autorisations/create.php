@@ -58,9 +58,10 @@
                                             </select>
                                         </div>
 
+
                                         <div class="form-group">
                                             <label for="controllerSelect">Controller</label>
-                                            <select multiple class="form-control select2" name="controllerSelect[]" id="controllerSelect" data-placeholder="Select Controller" style="width: 100%;">
+                                            <select class="form-control" name="controllerSelect[]" id="controllerSelect" data-placeholder="Select Controller" style="width: 100%;">
                                                 <option value="add">Projets</option>
                                                 <option value="edit">Tâches</option>
                                                 <option value="delete">Utilisateur</option>
@@ -109,7 +110,6 @@
         <script>
             $(document).ready(function() {
                 // Initialize select2
-                $('#controllerSelect').select2();
                 $('#actionSelect1').select2();
             });
         </script>

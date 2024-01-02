@@ -46,16 +46,16 @@
                 <div class="card-header">
                   <h3 class="card-title">
                     <i class="fas fa-chart-pie mr-1"></i>
-                    Edit Role
+                    Modifier le rôle
                   </h3>
                 </div><!-- /.card-header -->
                 <div class="card-body">
                   <form>
                     <div class="form-group">
-                      <label for="roleName">Role Name</label>
-                      <input type="text" class="form-control" id="roleName" placeholder="Enter role name" value="Existing Role Name">
+                      <label for="roleName">Nom de rôle</label>
+                      <input type="text" class="form-control" id="roleName" placeholder="Enter role name" value="chef_de_projet">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Modifier</button>
                   </form>
                 </div>
               </div>

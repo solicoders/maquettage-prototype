@@ -63,16 +63,23 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>gestion projet</td>
+                      <td>ProjetsController</td>
                       <td>
-                        <a href="./edit.html" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
+                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                         <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
                       </td>
                     </tr>
                     <tr>
-                      <td>gestion tache</td>
+                      <td>UtilisteurController</td>
                       <td>
-                        <a href="./edit.html" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
+                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
+                        <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>TacheController</td>
+                      <td>
+                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                         <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
                       </td>
                     </tr>

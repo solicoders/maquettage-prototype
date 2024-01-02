@@ -39,16 +39,16 @@
                           <div class="card-header">
                             <h3 class="card-title">
                               <i class="fas fa-chart-pie mr-1"></i>
-                              Ajouter une nouvelle action
+                              Modifier une Controller
                             </h3>
                           </div><!-- /.card-header -->
                           <div class="card-body">
                             <form>
                               <div class="form-group">
-                                <label for="rActionName">Nom de l'action</label>
-                                <input type="text" class="form-control" id="rActionName" placeholder="Entrez le nom de l'action">
+                                <label for="rActionName">Nom de Controller</label>
+                                <input type="text" class="form-control" id="rActionName" placeholder="Entrez le nom de l'action" value="ProjetsController">
                               </div>
-                              <button type="submit" class="btn btn-primary">Ajouter</button>
+                              <button type="submit" class="btn btn-primary">Modifier</button>
                             </form>
                           </div>
                         </div>
