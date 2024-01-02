@@ -111,6 +111,7 @@
                                                     </ul>
                                                 </td>
                                                 <td>
+                                                    <a href="show.php" class="btn btn-sm btn-default"><i class="fas fa-eye"></i></a>
                                                     <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                                                     <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
 
@@ -130,6 +131,7 @@
                                                     </ul>
                                                 </td>
                                                 <td>
+                                                    <a href="show.php" class="btn btn-sm btn-default"><i class="fas fa-eye"></i></a>
                                                     <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                                                     <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
                                                 </td>
@@ -150,6 +152,7 @@
                                                     </ul>
                                                 </td>
                                                 <td>
+                                                    <a href="show.php" class="btn btn-sm btn-default"><i class="fas fa-eye"></i></a>
                                                     <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                                                     <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
 
@@ -169,6 +172,7 @@
                                                     </ul>
                                                 </td>
                                                 <td>
+                                                    <a href="show.php" class="btn btn-sm btn-default"><i class="fas fa-eye"></i></a>
                                                     <a href="edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                                                     <button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
                                                 </td>

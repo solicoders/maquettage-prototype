@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         </div>
 
                         <div class="col-4">
-                            <button type="submit" class="btn btn-primary btn-block">connecter</button>
+                            <button type="submit" class="btn btn-info btn-block">connecter</button>
                             <!-- <a href="./gestion_des_projet/project/index.php" type="submit" class="btn btn-primary btn-block">connecter</a> -->
                         </div>
 

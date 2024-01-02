@@ -27,12 +27,10 @@
                   <a href="./create.php" class="btn btn-info">
                     <i class="fas fa-plus"></i> Ajouter un Controller
                   </a>
-                  <a href="./download.php" class="btn btn-secondary">
+                  <a href="#" class="btn btn-secondary">
                     <i class="fas fa-download"></i> Télécharger les Controllers
                   </a>
                 </div>
-
-
               </div>
             </div>
           </div>
@@ -46,12 +44,14 @@
             <div class="col-12">
               <!-- Default box -->
               <div class="card">
-                <div class="card-header">
-                  <div class="card-tools">
-                    <div class="input-group input-group-sm" style="width: 150px;">
-                      <input type="text" name="search" class="form-control float-right" placeholder="Search">
+              <div class="card-header col-md-12">
+                  <div class=" p-0">
+                    <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
+                      <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
                       <div class="input-group-append">
-                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                        <button type="submit" class="btn btn-default">
+                          <i class="fas fa-search"></i>
+                        </button>
                       </div>
                     </div>
                   </div>

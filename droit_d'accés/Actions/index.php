@@ -24,15 +24,12 @@
                 <h1>Actions</h1>
               </div>
               <div class="col-sm-6">
-                <div class="float-sm-right">
-                  <a href="./create.php" class="btn btn-secondary">
-                    <i class="fas fa-plus"></i> Ajoute
+              <div class="float-sm-right">
+                  <a href="#" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Télécharger les Actions
                   </a>
-                </div>
-
-                <div class="float-sm-right mr-2">
-                  <a href="./create.php" class="btn btn-secondary bg-gray">
-                    <i class="fas fa-plus"></i> Ajoute automatique
+                  <a href="./create.php" class="btn btn-info">
+                    <i class="fas fa-plus"></i> Ajouter un Action
                   </a>
                 </div>
               </div>
@@ -69,21 +66,21 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Ajouter-projet</td>
+                      <td>create-ProjectsController</td>
                       <td>
                         <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                         <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
                       </td>
                     </tr>
                     <tr>
-                      <td>modifier-projet</td>
+                      <td>edit-ProjectsController</td>
                       <td>
                         <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                         <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
                       </td>
                     </tr>
                     <tr>
-                      <td>Supprimer-tache</td>
+                      <td>delete-TasksController</td>
                       <td>
                         <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                         <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>

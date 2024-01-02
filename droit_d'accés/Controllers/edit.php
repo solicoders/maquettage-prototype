@@ -12,56 +12,39 @@
     <!-- Barre latérale -->
     <?php include_once "../../layouts/aside.php" ?>
 
+    <div class="content-wrapper" style="min-height: 1302.4px;">
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <section class="content-header">
-        <div class="container-fluid">
-          <div class="row mb-2">
-            <div class="col-sm-6">
-              <h1>Actions</h1>
-            </div>
-            <div class="col-sm-6">
-              <div class="float-right">
-              </div>
-            </div>
-          </div>
-        </div><!-- /.container-fluid -->
-      </section>
+      <div class="content-header">
+      </div>
 
-      <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12">
-              <div class="card">
+            <div class="col-md-12">
+
+              <div class="card card-info">
                 <div class="card-header">
                   <h3 class="card-title">
-                    <i class="fas fa-chart-pie mr-1"></i>
-                    Modifier une Controller
+                  <i class="fas fa-gamepad nav-icon"></i> Modifier un Controller
                   </h3>
-                </div><!-- /.card-header -->
+                </div>
                 <div class="card-body">
-                 
+                  <!-- Obtenir le formulaire -->
+                  <?php include_once "./form.php" ?>
                 </div>
               </div>
-              <!-- /.card -->
             </div>
           </div>
         </div>
+
       </section>
-      <!-- /.content -->
     </div>
-    <!-- /.content-wrapper -->
 
     <!-- Inclure le pied de page -->
     <?php include_once "../../layouts/footer.php" ?>
-
+    <!-- Inclure le script -->
+    <?php include_once "../../layouts/script-link.php" ?>
   </div>
-
-  <!-- Inclure le script -->
-  <?php include_once "../../layouts/script-link.php" ?>
 </body>
 
 </html>
