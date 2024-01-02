@@ -6,68 +6,43 @@
 
 <body class="sidebar-mini" style="height: auto;">
 
-  <div class="wrapper">
-    <!-- Navigation -->
-    <?php include_once "../../layouts/nav.php" ?>
-    <!-- Barre latérale -->
-    <?php include_once "../../layouts/aside.php" ?>
+    <div class="wrapper">
+        <!-- Navigation -->
+        <?php include_once "../../layouts/nav.php" ?>
+        <!-- Barre latérale -->
+        <?php include_once "../../layouts/aside.php" ?>
 
+        <div class="content-wrapper" style="min-height: 1302.4px;">
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <section class="content-header">
-        <div class="container-fluid">
-          <div class="row mb-2">
-            <div class="col-sm-6">
-              <h1>Roles</h1>
+            <div class="content-header">
             </div>
-            <div class="col-sm-6">
-              <div class="float-right">
-              </div>
-            </div>
-          </div>
-        </div><!-- /.container-fluid -->
-      </section>
 
-      <!-- Main content -->
-      <section class="content">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <div class="card">
-                <div class="card-header">
-                  <h3 class="card-title">
-                    <i class="fas fa-chart-pie mr-1"></i>
-                    Ajouter Rôle
-                  </h3>
-                </div><!-- /.card-header -->
-                <div class="card-body">
-                  <form>
-                    <div class="form-group">
-                      <label for="roleName">Nom de rôle</label>
-                      <input type="text" class="form-control" id="roleName" placeholder="Entrez le nom du rôle">
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div class="card card-info">
+                                <div class="card-header">
+                                    <h3 class="card-title"> <i class="far fa-check-circle nav-icon"></i> Ajouter un Role</h3>
+                                </div>
+                                <div class="card-body">
+                                    <!-- Obtenir le formulaire -->
+                                    <?php include_once "./form.php" ?>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
                 </div>
-              </div>
-              <!-- /.card -->
-            </div>
-          </div>
+
+            </section>            
         </div>
-      </section>
-      <!-- /.content -->
+        
+        <!-- Inclure le pied de page -->
+        <?php include_once "../../layouts/footer.php" ?>
+        <!-- Inclure le script -->
+        <?php include_once "../../layouts/script-link.php" ?>
     </div>
-    <!-- /.content-wrapper -->
-
-    <!-- Inclure le pied de page -->
-    <?php include_once "../../layouts/footer.php" ?>
-
-  </div>
-
-  <!-- Inclure le script -->
-  <?php include_once "../../layouts/script-link.php" ?>
 </body>
 
 </html>

@@ -12,91 +12,36 @@
         <!-- Barre latérale -->
         <?php include_once "../../layouts/aside.php" ?>
 
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1>Controllers</h1>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="float-right">
-                                <!-- <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button">Search</button>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.container-fluid -->
-            </section>
+        <div class="content-wrapper" style="min-height: 1302.4px;">
 
-            <!-- Main content -->
+            <div class="content-header">
+            </div>
+
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="card">
+                        <div class="col-md-12">
+
+                            <div class="card card-info">
                                 <div class="card-header">
-                                    <h3 class="card-title">
-                                        <i class="fas fa-chart-pie mr-1"></i>
-                                        Ajouter une autorisation
-                                    </h3>
-                                </div><!-- /.card-header -->
-                                <div class="card-body">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="roleSelect">Role</label>
-                                            <select class="form-control" id="roleSelect">
-                                                <option>admin</option>
-                                                <option>chef projet</option>
-                                                <!-- Add more roles as needed -->
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="controllerSelect">Controller</label>
-                                            <select multiple class="form-control select2" name="controllerSelect[]" id="controllerSelect" data-placeholder="Select Controller" style="width: 100%;">
-                                                <option value="add">Projets</option>
-                                                <option value="edit">Tâches</option>
-                                                <option value="delete">Utilisateur</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                            <input class="custom-control-input" type="checkbox" id="customCheckbox2">
-                                            <label for="customCheckbox2" class="custom-control-label">Sélectionnez tous les droits</label>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="actionSelect1">Actions</label>
-                                            <select multiple class="form-control select2" name="actionSelect[]" id="actionSelect1" data-placeholder="Select actions" style="width: 100%;">
-                                                <option value="add">Add</option>
-                                                <option value="edit">Edit</option>
-                                                <option value="delete">Delete</option>
-                                                <option value="create">Create</option>
-                                                <!-- Add more actions as needed -->
-                                            </select>
-                                        </div>
-
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </form>
+                                    <h3 class="card-title"> <i class="far fa-check-circle nav-icon"></i> Modifier une Autorisation</h3>
                                 </div>
-                            </div><!-- /.card -->
+                                <div class="card-body">
+                                    <!-- Obtenir le formulaire -->
+                                    <?php include_once "./form.php" ?>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- /.content -->
 
-            <!-- Inclure le pied de page -->
-            <?php include_once "../../layouts/footer.php" ?>
+            </section>
+        
+            
         </div>
-        <!-- /.content-wrapper -->
+        
+        <!-- Inclure le pied de page -->
+        <?php include_once "../../layouts/footer.php" ?>
 
         <!-- Inclure le script -->
         <?php include_once "../../layouts/script-link.php" ?>
@@ -109,10 +54,10 @@
         <script>
             $(document).ready(function() {
                 // Initialize select2
-                $('#controllerSelect').select2();
                 $('#actionSelect1').select2();
             });
         </script>
+    </div>
 </body>
 
 </html>

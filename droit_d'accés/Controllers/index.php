@@ -24,10 +24,14 @@
               </div>
               <div class="col-sm-6">
                 <div class="float-sm-right">
-                  <a href="./create.php" class="btn btn-secondary">
-                    <i class="fas fa-plus"></i> Ajoute
+                  <a href="./create.php" class="btn btn-info">
+                    <i class="fas fa-plus"></i> Ajouter un Controller
+                  </a>
+                  <a href="./download.php" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Télécharger les Controllers
                   </a>
                 </div>
+
 
               </div>
             </div>

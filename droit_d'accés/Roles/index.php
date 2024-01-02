@@ -15,7 +15,6 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
       <section class="content-header">
         <div class="content-header">
           <div class="container-fluid">
@@ -26,7 +25,7 @@
               <div class="col-sm-6">
 
                 <div class="float-sm-right mr-2">
-                  <a href="./create.php" class="btn btn-secondary">
+                  <a href="./create.php" class="btn btn-info">
                     <i class="fas fa-plus"></i> Ajouter un Rôle
                   </a>
                 </div>
