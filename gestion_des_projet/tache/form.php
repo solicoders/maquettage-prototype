@@ -6,8 +6,8 @@
         </div>
 
         <div class="form-group">
-            <label for="exampleInputPassword1">Description</label>
-            <input name="description" type="text" class="form-control" id="exampleInputPassword1" placeholder="Description" value="Description de tâche 1">
+            <label for="inputDescription">Description</label>
+            <textarea name="projectDescription" class="form-control" id="inputDescription" placeholder="Entrez la description">Description de CNMH</textarea>
         </div>
 
 
@@ -25,6 +25,22 @@
 
     <div class="card-footer">
         <a href="./index.html" class="btn btn-default">Annuler</a>
-        <button type="submit" class="btn btn-primary">Soumettre</button>
+        <button type="submit" class="btn btn-info">Soumettre</button>
     </div>
 </form>
+
+<script>
+    tinymce.init({
+        selector: '#inputDescription',
+        height: 300, // Set the height of the editor
+        menubar: false, // Hide the menu bar
+        plugins: [
+            'advlist autolink lists link image charmap print preview anchor',
+            'searchreplace visualblocks code fullscreen',
+            'insertdatetime media table paste code help wordcount'
+        ],
+        toolbar: 'undo redo | formatselect | bold italic backcolor | \
+                   alignleft aligncenter alignright alignjustify | \
+                   bullist numlist outdent indent | removeformat | help'
+    });
+</script>

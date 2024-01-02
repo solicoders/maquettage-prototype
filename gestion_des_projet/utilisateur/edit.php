@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<!-- Obtenir l'en-tête -->
+<!-- Inclure l'en-tête -->
 <?php include_once "../../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
-        <!-- navigation -->
+        <!-- Navigation -->
         <?php include_once "../../layouts/nav.php" ?>
-        <!-- barre latérale -->
+        <!-- Barre latérale -->
         <?php include_once "../../layouts/aside.php" ?>
 
 
@@ -23,11 +23,11 @@
                     <div class="row">
                         <div class="col-md-12">
 
-                            <div class="card card-primary">
+                            <div class="card card-info">
                                 <div class="card-header">
-                                    <h3 class="card-title">Ajouter un utilisateur</h3>
+                                    <h3 class="card-title"><i class="fa-solid fa-users pl-1 pr-1"></i> Modifier le Membre</h3>
                                 </div>
-                                <!-- obtenir le formulaire -->
+                                <!-- Obtenir le formulaire -->
                                 <?php include_once "./form.php" ?>
                             </div>
 
@@ -39,14 +39,13 @@
 
         </div>
 
+         <!-- Inclure le pied de page -->
+         <?php include_once "../../layouts/footer.php" ?>
 
-        <!-- obtenir le pied de page -->
-        <?php include_once "../../layouts/footer.php" ?>
+</div>
 
-    </div>
-
-    <!-- obtenir le script -->
-    <?php include_once "../../layouts/footer.php" ?>
+<!-- Inclure le script -->
+<?php include_once "../../layouts/script-link.php" ?>
 </body>
 
 </html>

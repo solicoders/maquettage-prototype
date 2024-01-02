@@ -22,7 +22,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
-                                <a href="./ajouter.php" class="btn btn-secondary">
+                                <a href="./ajouter.php" class="btn btn-info">
                                     <i class="fas fa-plus"></i> Neveau projet
                                 </a>
                             </div>
@@ -57,7 +57,7 @@
                                                 <th>Description</th>
                                                 <th>Date de Début</th>
                                                 <th>Date de Fin</th>
-                                                <th>Actions</th>
+                                                <th class="text-center">Actions</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -68,9 +68,12 @@
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
-                                                <td>
+                                                <td class="text-center">
+                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">les Tâches</a>
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                        <i class="far fa-eye"></i>
+                                                    </a>
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
@@ -81,9 +84,12 @@
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
-                                                <td>
+                                                <td class="text-center">
+                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">les Tâches</a>
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                        <i class="far fa-eye"></i>
+                                                    </a>
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
@@ -94,9 +100,12 @@
                                                 </td>
                                                 <td>11-7-2014</td>
                                                 <td>11-7-2014</td>
-                                                <td>
+                                                <td class="text-center">
+                                                    <a href="../tache/index.php" class="btn btn-sm btn-default mx-2">les Tâches</a>
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                        <i class="far fa-eye"></i>
+                                                    </a>
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <a href="././tache/index.html" class="btn btn-sm btn-default mx-2">Voir les Tâches</a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>

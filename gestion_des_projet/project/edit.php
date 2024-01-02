@@ -19,9 +19,9 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="card card-primary">
+                            <div class="card card-info">
                                 <div class="card-header">
-                                    <h3 class="card-title">Modifier le Projet</h3>
+                                    <h3 class="card-title"> <i class="nav-icon fas fa-table"></i> Modifier le Projet</h3>
                                 </div>
                                 <?php include_once "./form.php" ?>
                             </div>
@@ -31,13 +31,13 @@
             </section>
         </div>
 
-        <!-- Pied de page -->
+        <!-- Inclure le pied de page -->
         <?php include_once "../../layouts/footer.php" ?>
 
     </div>
 
-    <!-- Script -->
-    <?php include_once "../../layouts/footer.php" ?>
+    <!-- Inclure le script -->
+    <?php include_once "../../layouts/script-link.php" ?>
 </body>
 
 </html>

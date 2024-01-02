@@ -24,7 +24,7 @@
 
     <div class="card-footer">
         <a href="./index.php" class="btn btn-default">Annuler</a>
-        <button type="submit" class="btn btn-primary">Ajouter</button>
+        <button type="submit" class="btn btn-info">Ajouter</button>
     </div>
 </form>
 

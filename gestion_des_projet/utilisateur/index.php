@@ -24,8 +24,8 @@
                         <div class="col-sm-6">
                             <div class="float-sm-right">
                                 <!-- btnAdd -->
-                                <a href="./ajouter.php" class="btn btn-secondary">
-                                    <i class="fas fa-plus"></i> Neveau Utilisateur
+                                <a href="./ajouter.php" class="btn btn-info">
+                                    <i class="fas fa-plus"></i> Neveau Member
                                 </a>
                             </div>
                         </div>
@@ -56,37 +56,50 @@
                                         <thead>
                                             <tr>
                                                 <th>Nom</th>
+                                                <th>Prénom</th>
                                                 <th>Email</th>
-                                                <th>Action</th>
+                                                <th class="text-center">Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>ahmed alami</td>
+                                                <td>alami</td>
+                                                <td>ahmed</td>
                                                 <td>
                                                     ahmed@gmail.com
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                        <i class="far fa-eye"></i>
+                                                    </a>
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Achou</td>
+                                                <td>Hamid</td>
                                                 <td>
                                                     Achou@gmail.com
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                        <i class="far fa-eye"></i>
+                                                    </a>
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>ben nasser</td>
+                                                <td>adnan</td>
                                                 <td>
                                                     adnan@gmail.com
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                        <i class="far fa-eye"></i>
+                                                    </a>
                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
