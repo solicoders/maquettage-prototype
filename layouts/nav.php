@@ -29,7 +29,7 @@
                 <!-- Pied de page du menu -->
                 <li class="user-footer">
                     <a href="#" class="btn btn-default btn-flat">Profil</a>
-                    <a href="../../index.php" class="btn btn-default btn-flat float-right">
+                    <a href="../../auth/connecter/index.php" class="btn btn-default btn-flat float-right">
                         Se déconnecter
                     </a>
                 </li>

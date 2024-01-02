@@ -1,16 +1,3 @@
-<?php
-// session_start();
-if (isset($_POST['email'])) {
-  $_SESSION['email'] = $_POST['email'];
-  $_SESSION['name'] = "utilisateur";
-
-  if ($_SESSION['email'] == "admin@solicode.com") {
-    $_SESSION['name'] = "admin";
-  } elseif ($_SESSION['email'] == "chef-project@solicode.com") {
-    $_SESSION['name'] = "chef de projet";
-  }
-}
-?>
 <aside class="main-sidebar sidebar-dark-primary elevation-4 position-fixed">
   <!-- Logo de la marque -->
   <a href="../../gestion_des_projet/project/index.php" class="brand-link">
@@ -56,6 +43,7 @@ if (isset($_POST['email'])) {
             <!-- Authorization -->
           <?php
         } elseif ($_SESSION['name'] == "admin") {
+
           ?>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">

@@ -24,12 +24,6 @@
             </div>
             <div class="col-sm-6">
               <div class="float-right">
-                <!-- <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search">
-                <div class="input-group-append">
-                  <button class="btn btn-primary" type="button">Search</button>
-                </div>
-              </div> -->
               </div>
             </div>
           </div>
