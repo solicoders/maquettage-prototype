@@ -64,14 +64,21 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Ajouter projet</td>
+                      <td>Ajouter-projet</td>
                       <td>
                         <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                         <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
                       </td>
                     </tr>
                     <tr>
-                      <td>Supprimer tache</td>
+                      <td>modifier-projet</td>
+                      <td>
+                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
+                        <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Supprimer-tache</td>
                       <td>
                         <a href="./edit.php" class="btn btn-sm btn-default"><i class="fas fa-edit"></i></a>
                         <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>

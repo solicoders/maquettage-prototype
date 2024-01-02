@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    $name = ($_SESSION['email'] == "admin@solicode.com") ? $name = "chef de projet": $name = "admin";
+
+?>
 <!-- <nav class="main-header navbar navbar-expand navbar-white navbar-light"> -->
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Liens de navigation de gauche -->
@@ -12,14 +17,14 @@
         <li class="nav-item dropdown user-menu">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                 <img src="../../adminlte/dist/img/directeur.png" class="user-image img-circle elevation-2" alt="Image d'utilisateur">
-                <span class="d-none d-md-inline">Chef de Projet</span>
+                <span class="d-none d-md-inline"><?php echo  $_SESSION['name']; ?></span>
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <!-- Image d'utilisateur -->
                 <li class="user-header bg-primary">
                     <img src="../../adminlte/dist/img/directeur.png" class="img-circle elevation-2" alt="Image d'utilisateur">
                     <p>
-                        Chef de Projet
+                    <?php echo  $_SESSION['name']; ?>
                         <small>Membre depuis le 28/12/2023</small>
                     </p>
                 </li>
