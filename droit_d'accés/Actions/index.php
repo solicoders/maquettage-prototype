@@ -24,7 +24,7 @@
                 <h1>Actions</h1>
               </div>
               <div class="col-sm-6">
-              <div class="float-sm-right">
+                <div class="float-sm-right">
                   <a href="#" class="btn btn-secondary">
                     <i class="fas fa-download"></i> Télécharger les Actions
                   </a>
@@ -91,12 +91,12 @@
                   <tfoot>
                     <tr>
                       <td colspan="2">
-                        <ul class="pagination  m-0 float-right">
-                          <li class="page-item"><a class="page-link" href="#">«</a></li>
-                          <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item"><a class="page-link" href="#">»</a></li>
+                        <ul class="pagination m-0 float-right">
+                          <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
+                          <li class="page-item"><a class="page-link active text-secondary" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link text-secondary" href="#">»</a></li>
                         </ul>
                       </td>
                     </tr>

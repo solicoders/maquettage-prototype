@@ -13,5 +13,5 @@
         <label for="rActionName">Nom de l'action</label>
         <input type="text" class="form-control" id="rActionName" placeholder="Entrez le nom de l'action" value="create">
     </div>
-    <button type="submit" class="btn btn-info">save</button>
+    <button type="submit" class="btn btn-info">Ajouter</button>
 </form>

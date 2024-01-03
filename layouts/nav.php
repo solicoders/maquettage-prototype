@@ -19,7 +19,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <!-- Image d'utilisateur -->
-                <li class="user-header bg-primary">
+                <li class="user-header bg-info">
                     <img src="../../adminlte/dist/img/directeur.png" class="img-circle elevation-2" alt="Image d'utilisateur">
                     <p>
                     <?php echo  $_SESSION['name']; ?>

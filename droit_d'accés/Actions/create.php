@@ -24,7 +24,7 @@
 
                             <div class="card card-info">
                                 <div class="card-header">
-                                    <h3 class="card-title"> <i class="fas fa-gamepad nav-icon"></i> Ajouter un Action</h3>
+                                    <h3 class="card-title"> <i class="fas fa-cogs nav-icon"></i> Ajouter un Action</h3>
                                 </div>
                                 <div class="card-body">
                                     <!-- Obtenir le formulaire -->

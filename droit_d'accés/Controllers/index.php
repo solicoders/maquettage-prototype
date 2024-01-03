@@ -24,11 +24,11 @@
               </div>
               <div class="col-sm-6">
                 <div class="float-sm-right">
-                  <a href="./create.php" class="btn btn-info">
-                    <i class="fas fa-plus"></i> Ajouter un Controller
-                  </a>
                   <a href="#" class="btn btn-secondary">
                     <i class="fas fa-download"></i> Télécharger les Controllers
+                  </a>
+                  <a href="./create.php" class="btn btn-info">
+                    <i class="fas fa-plus"></i> Ajouter un Controller
                   </a>
                 </div>
               </div>
@@ -93,11 +93,11 @@
                     <tr>
                       <td colspan="2">
                         <ul class="pagination  m-0 float-right">
-                          <li class="page-item"><a class="page-link" href="#">«</a></li>
-                          <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item"><a class="page-link" href="#">»</a></li>
+                          <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
+                          <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link text-secondary" href="#">»</a></li>
                         </ul>
                       </td>
                     </tr>
