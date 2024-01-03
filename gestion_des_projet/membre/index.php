@@ -25,7 +25,7 @@
                             <div class="float-sm-right">
                                 <!-- btnAdd -->
                                 <a href="./ajouter.php" class="btn btn-info">
-                                    <i class="fas fa-plus"></i> Neveau Member
+                                    <i class="fas fa-plus"></i> Nouveau Member
                                 </a>
                             </div>
                         </div>
