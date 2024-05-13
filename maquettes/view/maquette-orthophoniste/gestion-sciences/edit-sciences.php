@@ -2,15 +2,15 @@
 <html lang="fr">
 
 <!-- Inclure l'en-tête -->
-<?php include_once "../layouts/heade.php" ?>
+<?php include_once "../../layouts/heade.php" ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
         <!-- Navigation -->
-        <?php include_once "../layouts/nav.php" ?>
+        <?php include_once "../../layouts/nav.php" ?>
         <!-- Barre latérale -->
-        <?php include_once "../layouts/aside.php" ?>
+        <?php include_once "../../layouts/aside.php" ?>
 
         <div class="content-wrapper" style="min-height: 1302.4px;">
 
@@ -38,7 +38,7 @@
                                             <div class="card-body p-0 mt-2">
                                                
                                                 <div class="form-group col-12">
-                                                    <label> Date Rendez-Vous </label>
+                                                    <label> Date de rendez-vous </label>
                                                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                                                         <input type="text" class="form-control datetimepicker-input" value="04/03/2023" />
                                                      
@@ -46,20 +46,7 @@
                                                 </div>
                                                 <div class="form-group col-12">
 
-                                                    <div class="form-group">
-                                                        <label> Type de handicap </label>
-                                                        <select class="form-control select2" style="width: 100%;">
-                                                            <option selected="selected">Sélectionner un type de handicap</option>
-                                                            <option>TSA</option>
-                                                            <option selected="selected">RETARD MENTAL</option>
-                                                            <option>TRISOMIE 21</option>
-                                                            <option>IMC</option>
-                                                            <option>RPM</option>
-                                                            <option>RETARD DE LANGUAGE</option>
-                                                            <option>HANDICAP MOTEUR</option>
-                                                            <option>AUTRES</option>
-                                                        </select>
-                                                    </div>
+                                                     
                                                 </div>
                                             </div>
                                             <div class="d-flex">
@@ -257,17 +244,17 @@
     </style>
 
 
-
-
-
-
     <!-- Inclure le pied de page -->
-    <?php include_once "../layouts/footer.php" ?>
+    <?php include_once "../../layouts/footer.php" ?>
 
     </div>
 
     <!-- Inclure le script -->
-    <?php include_once "../layouts/script-link.php" ?>
+    <?php include_once "../../layouts/script-link.php" ?>
 </body>
 
 </html>
+
+etat 
+remarques
+date-denezvous

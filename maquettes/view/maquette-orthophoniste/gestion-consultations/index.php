@@ -52,24 +52,12 @@
                                     <table class="table table-striped text-nowrap">
                                         <thead>
                                             <tr>
-                                                <th style="width: 20%">N° dossier
-                                                </th>
-                                                <th style="width: 20%">
-                                                    Nom
-                                                </th>
+                                                <th style="width: 20%">N° dossier</th>
+                                                <th style="width: 20%">Nom</th>
                                                 <th style="width: 20%">Prénom</th>
-                                                
-                                                <th style="width: 20%">
-                                                    Date d'enregistrement
-                                                </th>
-                                                <th style="width: 20%">
-                                                    Date de consultation
-                                                </th>
-                                                <th style="width: 20%">
-                                                    Actions
-                                                </th>
-                                                <th style="width: 20%">
-                                                </th>
+                                                <th style="width: 20%">Date d'enregistrement</th>
+                                                <th style="width: 20%">Date de consultation</th>   
+                                                <th style="width: 20%">Actions</th>    
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -91,7 +79,6 @@
                                                         Modifier
                                                     </a>
                                                 </td>
-
                                             </tr>
                                             <tr>
                                                 <td>A-1700</td>

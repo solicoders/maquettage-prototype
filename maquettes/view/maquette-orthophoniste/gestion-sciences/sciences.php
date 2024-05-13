@@ -64,7 +64,7 @@
                                                 <td>03/03/2023</td>
                                                 <td>03/04/2023</td>
                                                 <td class="project-actions">
-                                                    <a class="btn btn-info btn-sm" href="./edit-sicences.php">
+                                                    <a class="btn btn-info btn-sm" href="edit-sciences.php">
                                                         <i class="fas fa-pencil-alt"></i> Modifier
                                                     </a>
                                                 </td>
@@ -85,17 +85,17 @@
                                     </table>
                                 </div>
 
-                                <div class="card-footer d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
-                                        <button type="button" class="btn btn-default btn-sm">
-                                            <i class="fas fa-file-arrow-down"></i> IMPORTER
-                                        </button>
-                                        <button type="button" class="btn btn-default btn-sm mx-2">
-                                            <i class="fas fa-file-export"></i> EXPORTER
-                                        </button>
+                                <div class="d-flex justify-content-between align-items-center p-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <button type="button" class="btn  btn-default btn-sm">
+                                            <i class="fa-solid fa-file-arrow-down"></i>
+                                            IMPORTER</button>
+                                        <button type="button" class="btn  btn-default btn-sm mt-0 mx-2">
+                                            <i class="fa-solid fa-file-export"></i>
+                                            EXPORTER</button>
                                     </div>
-                                    <div>
-                                        <ul class="pagination m-0 float-right">
+                                    <div class="mr-5">
+                                        <ul class="pagination  m-0 float-right">
                                             <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
                                             <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
                                             <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
