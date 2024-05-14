@@ -63,9 +63,16 @@
                                                 <td>karima</td>
                                                 <td>03/03/2023</td>
                                                 <td>03/04/2023</td>
-                                                <td class="project-actions">
-                                                    <a class="btn btn-info btn-sm" href="edit-sciences.php">
-                                                        <i class="fas fa-pencil-alt"></i> Modifier
+                                                <td class="project-actions text-right d-flex d-md-block">
+                                                    <a class="btn btn-primary btn-sm" href="show.php">
+                                                        <i class="fas fa-folder">
+                                                        </i>
+                                                        Afficher
+                                                    </a>
+                                                    <a class="btn btn-info btn-sm" href="edit.php">
+                                                        <i class="fas fa-pencil-alt">
+                                                        </i>
+                                                        Modifier
                                                     </a>
                                                 </td>
                                             </tr>
@@ -75,9 +82,16 @@
                                                 <td>aya</td>
                                                 <td>03/04/2023</td>
                                                 <td>03/05/2023</td>
-                                                <td class="project-actions">
-                                                    <a class="btn btn-info btn-sm" href="../../Consultation/ConsultationForm.php">
-                                                        <i class="fas fa-pencil-alt"></i> Modifier
+                                                <td class="project-actions text-right d-flex d-md-block">
+                                                    <a class="btn btn-primary btn-sm" href="show.php">
+                                                        <i class="fas fa-folder">
+                                                        </i>
+                                                        Afficher
+                                                    </a>
+                                                    <a class="btn btn-info btn-sm" href="edit.php">
+                                                        <i class="fas fa-pencil-alt">
+                                                        </i>
+                                                        Modifier
                                                     </a>
                                                 </td>
                                             </tr>

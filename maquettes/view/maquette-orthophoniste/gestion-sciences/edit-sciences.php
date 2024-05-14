@@ -52,29 +52,21 @@
                                             <div class="d-flex">
 
                                                 <div class="form-group col-md-12">
-                                                    <label>Observation</label>
+                                                    <label>L'état</label>
                                                     <div id="reservationdate" data-target-input="nearest">
-                                                        <textarea name="Observation" id="summernote" class="form-control" rows="4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo modi quisquam iure voluptatum fugit quia facere atque, sint obcaecati ipsam totam sunt ipsum incidunt doloremque repellendus omnis voluptas tempora.</textarea>
+                                                        <textarea name="etat" id="summernote" class="form-control" rows="4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo modi quisquam iure voluptatum fugit quia facere atque, .</textarea>
                                                       
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="d-flex">
-                                                <div class="form-group col-md-12">
-                                                    <label>Diagnostic</label>
-                                                    <div id="reservationdate" data-target-input="nearest">
-                                                        <textarea name="Remarque" id="summernote2" class="form-control" rows="4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, quod cum dolore vel odio cupiditate. Blanditiis debitis voluptas recusandae commodi numquam itaque a. Ullam possimus recusandae deserunt optio magni repellat.</textarea>
-                                                       
-                                                    </div>
-                                                </div>
-                                            </div>
+                                         
 
                                             <div class="d-flex">
 
                                                 <div class="form-group col-md-12">
                                                     <label>Bilan</label>
                                                     <div id="reservationdate" data-target-input="nearest">
-                                                        <textarea name="Diagnostic" id="summernote3" class="form-control" rows="4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus iusto delectus fugit totam, fuga esse sit reiciendis, maiores non tempore repudiandae! Suscipit repellat eius sunt incidunt sequi, tempore quae!</textarea>
+                                                        <textarea name="Diagnostic" id="summernote3" class="form-control" rows="4">Lorem ipsum dolor fugit totam, fuga esse sit reiciendis, maiores non tempore repudiandae! Susnt sequi, tempore quae!</textarea>
                                                       
                                                     </div>
                                                 </div>
@@ -83,14 +75,14 @@
                                                 <div class="form-group col-md-12">
                                                     <label>Remarque</label>
                                                     <div id="reservationdate" data-target-input="nearest">
-                                                        <textarea name="Remarque" id="summernote5" class="form-control" rows="4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati distinctio ut quod eum quis iste porro blanditiis molestiae nesciunt quam dolorum, cupiditate dicta ducimus corporis, aliquid sapiente numquam quaerat atque.</textarea>
+                                                        <textarea name="Remarque" id="summernote5" class="form-control" rows="4">Lorem ipsum dolor, sit amet consectetur aorporis, aliquid sapiente numquam quaerat atque.</textarea>
                                                        
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="ml-4 mb-3">
-                                                <a href="./index.php" class="btn btn-primary">Retour</a>
-                                                <a href="./index.php" class="btn btn-primary">Editer</a>
+                                                <a href="./sciences.php" class="btn btn-secondary">Retour</a>
+                                                <a href="./sciences.php" class="btn btn-info">Modifier</a>
                                             </div>
                                             </form>
                                            
@@ -254,7 +246,3 @@
 </body>
 
 </html>
-
-etat 
-remarques
-date-denezvous

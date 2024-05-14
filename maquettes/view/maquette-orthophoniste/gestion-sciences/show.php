@@ -38,7 +38,7 @@
                                         <label for="nom">Bilan:</label>
                                         <p>Test</p>
                                     </div>
-
+                                    
                                     <!-- Description Field -->
                                     <div class="col-sm-12">
                                         <label for="description">Diagnostic:</label>
